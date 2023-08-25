@@ -23,3 +23,41 @@ img {
 ul {
   list-style: none;
 }
+
+.d-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.header .header-logo {
+  width: 250px;
+}
+
+.header .header-logo img {
+  min-width: 300px;
+}
+
+.header .header-nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header .header-nav li {
+  text-transform: capitalize;
+}
