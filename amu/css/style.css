@@ -61,3 +61,21 @@ ul {
 .header .header-nav li {
   text-transform: capitalize;
 }
+
+/* Utils  --------------------------------------------------- */
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  border: 0;
+}
+
+.btn-yellow {
+  display: inline-block;
+  background: #fbb927;
+  color: #fff;
+  padding: 12px 20px;
+}
+
+/* Utils End  --------------------------------------------------- */
