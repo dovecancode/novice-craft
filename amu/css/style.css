@@ -172,8 +172,61 @@ ul {
   color: #000;
 }
 
+.hero-box.crimson:hover,
+.hero-box.yellow:hover,
+.hero-box.white:hover {
+  box-shadow: 0px 0px 16px 3px #1a0303;
+}
+
+.hero-box .icon img {
+  width: 45px;
+}
+
+.btn-crimson {
+  background: #ec3e37;
+  color: #fff;
+  padding: 12px 30px;
+}
+
+.btn-crimson i {
+  font-size: 12px;
+}
+
 @media (width >= 900px) {
   .hero .hero-text {
     text-align: right;
+  }
+}
+
+@media (width <= 900px) {
+  .hero-boxes {
+    justify-content: center;
+  }
+
+  .header .header-navbar {
+    display: none;
+  }
+  .hero .hero-text {
+    margin-top: -204px;
+  }
+
+  .header .header-logo {
+    margin: auto;
+  }
+}
+
+@media (width <= 1536px) {
+  .hero {
+    background-position-x: 27%;
+    background-position-y: -90px;
+  }
+  .hero .hero-text span {
+    font-size: clamp(1.6rem, 1vw, 4rem);
+  }
+  .hero .hero-text h1 {
+    font-size: clamp(5rem, 8vw, 4rem);
+  }
+  .hero-box {
+    padding: 10px;
   }
 }
