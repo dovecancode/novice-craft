@@ -78,4 +78,69 @@ ul {
   padding: 12px 20px;
 }
 
+.btn-crimson {
+  background: #ec3e37;
+  color: #fff;
+  padding: 12px 30px;
+}
+
+.btn-crimson a {
+  font-size: 18px;
+  color: #fff;
+}
 /* Utils End  --------------------------------------------------- */
+
+/* HERO --------------------------------------------------- */
+.hero {
+  background: url('../img/mainbg.jpg');
+  position: relative;
+}
+
+.hero .hero-content {
+  height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.hero .hero-text {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.hero-text > span {
+  display: block;
+  color: #fbb927;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.hero-text > h1 {
+  color: #fff;
+  font-size: 100px;
+  text-transform: capitalize;
+}
+
+.hero-text > p {
+  color: #fff;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.hero-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}
+
+@media (width >= 900px) {
+  .hero .hero-text {
+    text-align: right;
+  }
+}
