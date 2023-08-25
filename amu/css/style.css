@@ -139,6 +139,39 @@ ul {
   right: 0;
 }
 
+.hero-box {
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+  width: 300px;
+  margin-bottom: 20px;
+  /* box-shadow: 0px 0px 16px 3px #1a0303; */
+  transition: all 0.6s;
+}
+
+.hero-box .hero-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-info .info i {
+  font-size: 12px;
+}
+
+.hero-box.crimson {
+  background: #ec3e37;
+}
+
+.hero-box.yellow {
+  background: #fbb927;
+}
+
+.hero-box.white {
+  background: #fff;
+  color: #000;
+}
+
 @media (width >= 900px) {
   .hero .hero-text {
     text-align: right;
