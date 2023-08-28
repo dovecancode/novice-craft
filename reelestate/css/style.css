@@ -1,0 +1,58 @@
+/* Font-Face Merriweather and Poppins  */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@300&display=swap');
+
+:root {
+  --main-color: #e07d19;
+  --secondary-color: #035953;
+  --body-text-color: #7d8083;
+
+  --body-text-font: 'Poppins', sans-serif;
+  --heading-text-font: 'Merriweather', serif;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  color: var(--body-text-color);
+}
+
+body,
+select,
+button {
+  font-family: var(--body-text-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-text-font);
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
