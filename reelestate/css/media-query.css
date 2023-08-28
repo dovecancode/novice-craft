@@ -1,0 +1,9 @@
+@media (min-width: 69em) {
+  .navbar .navbar-hamburger {
+    display: none;
+  }
+  .navbar-content ul.nav,
+  .navbar-content .navbar-contact {
+    display: flex;
+  }
+}

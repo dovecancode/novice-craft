@@ -1,0 +1,22 @@
+.btn {
+  background: var(--secondary-color);
+  display: inline-block;
+  padding: 0.8em 2em;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+}
+
+.btn-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
