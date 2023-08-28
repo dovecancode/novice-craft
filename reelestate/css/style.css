@@ -134,36 +134,3 @@ img {
   margin-top: 0.265rem;
   margin-bottom: 0.265rem;
 }
-
-.btn {
-  background: var(--secondary-color);
-  display: inline-block;
-  padding: 0.8em 2em;
-  cursor: pointer;
-  border-radius: 4px;
-  color: #fff;
-  border: none;
-}
-
-.btn-search {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  text-transform: capitalize;
-  font-weight: bold;
-}
-
-.btn:hover {
-  transform: scale(0.98);
-}
-
-@media (min-width: 69em) {
-  .navbar .navbar-hamburger {
-    display: none;
-  }
-  .navbar-content ul.nav,
-  .navbar-content .navbar-contact {
-    display: flex;
-  }
-}
