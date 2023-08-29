@@ -7,3 +7,10 @@
     display: flex;
   }
 }
+
+@media (min-width: 40em) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    column-gap: 4rem;
+  }
+}
