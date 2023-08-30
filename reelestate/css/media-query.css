@@ -6,6 +6,23 @@
   .navbar-content .navbar-contact {
     display: flex;
   }
+
+  /* ##############
+  *** Logos Styles ***
+   ############## 
+*/
+
+  .logos-content {
+    grid-template-columns: min-content 1fr;
+  }
+
+  .logos-svg img {
+    max-height: 3.5rem;
+  }
+
+  .logos-svg {
+    justify-self: center;
+  }
 }
 
 @media (min-width: 40em) {

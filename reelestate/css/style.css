@@ -186,3 +186,43 @@ img {
 .company-header img {
   border-radius: 1rem;
 }
+
+/* ##############
+  *** Logos Styles ***
+   ############## 
+*/
+
+.logos {
+  background-color: #eaf0f0;
+  padding: 2rem 0;
+}
+
+.logos-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 5rem;
+  align-items: center;
+}
+
+.logos-header {
+  width: 17rem;
+}
+.logos-header p {
+  font-size: 2rem;
+  font-weight: bold;
+  /* color: var(--main-color); */
+  color: #000;
+  text-transform: capitalize;
+}
+
+.logos-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  column-gap: 3rem;
+  row-gap: 2rem;
+  align-items: center;
+}
+
+.logos-svg {
+  justify-self: start;
+}
