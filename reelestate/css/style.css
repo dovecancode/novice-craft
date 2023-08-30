@@ -271,3 +271,94 @@ img {
 .company-info-text .text h3 {
   color: #000;
 }
+
+/* ##############
+  *** Featured Lands ***
+   ############## 
+*/
+
+.featured-land {
+  background: #f2f2f2;
+}
+
+.featured-land .flex-container {
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.featured-land .container {
+  width: 90vw;
+}
+
+.featured-land .container:hover .d-fault h3 {
+  opacity: 0;
+}
+
+.featured-land .container:hover .d-fault {
+  flex: 0.5;
+}
+
+.land {
+  height: 50vh;
+  flex: 0.5;
+  border-radius: 1rem;
+  position: relative;
+  transition: flex 0.7s ease-in;
+  overflow: hidden;
+}
+
+.land h3 {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  color: #fff;
+  opacity: 0;
+  position: absolute;
+  left: 2rem;
+  right: 0;
+  bottom: 3rem;
+  transition: opacity 0.5s ease-in;
+}
+
+.land:hover:not(.land1) {
+  flex: 5;
+}
+
+.land:hover h3 {
+  opacity: 1;
+}
+
+.land:nth-of-type(1):hover h3 {
+  opacity: 1 !important;
+}
+
+.land:nth-of-type(1):hover {
+  flex: 5 !important;
+}
+
+.d-fault h3 {
+  opacity: 1;
+}
+
+.d-fault {
+  flex: 5;
+}
+
+.featured-land .land1 {
+  background: steelblue url('https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80') no-repeat;
+  background-size: cover;
+}
+
+.featured-land .land2 {
+  background: red url('https://plus.unsplash.com/premium_photo-1661930553507-59420df08d82?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80') 60%;
+  background-size: cover;
+}
+
+.featured-land .land3 {
+  background: pink url('https://images.unsplash.com/photo-1678483874574-0326c60e3f20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+  background-size: cover;
+}
+
+.featured-land .land4 {
+  background: yellow url('https://images.unsplash.com/photo-1444858291040-58f756a3bdd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1978&q=80') 40% no-repeat;
+  background-size: cover;
+}
