@@ -362,3 +362,67 @@ img {
   background: yellow url('https://images.unsplash.com/photo-1444858291040-58f756a3bdd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1978&q=80') 40% no-repeat;
   background-size: cover;
 }
+
+/* ##############
+  *** Blog Styles ***
+   ############## 
+*/
+
+.blog-featured-img {
+  flex: 2;
+}
+.blog-featured-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  padding: 2% 5%;
+  background: #e07d19;
+  color: #fff;
+
+  flex: 4;
+}
+
+.blog-featured-content h2,
+.blog-posts h3 {
+  text-transform: capitalize;
+}
+
+.blog-featured-content h2 {
+  /* font-size: clamp(1.6em, 1rem + 3vw, 4rem); */
+  font-size: clamp(1.6rem, 1rem + 2vw, 4rem);
+}
+
+.blog-featured-content h2 {
+  color: #fff;
+}
+
+.blog-post h3 {
+  color: #000;
+  transition: color 0.3s;
+}
+
+.blog-post h3:hover {
+  color: var(--main-color);
+}
+
+.blog-featured-content a,
+.blog-post a {
+  display: block;
+}
+
+.blog-post a {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.blog-featured-content > *,
+.blog-post > * {
+  margin-bottom: 1.6rem;
+}
+
+.blog-posts > * {
+  margin-block: 4rem;
+  box-shadow: 2px 5px 5px 0px rgba(136, 136, 136, 0.43);
+  padding: 5% 5%;
+}

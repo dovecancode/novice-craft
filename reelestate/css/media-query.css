@@ -29,6 +29,12 @@
   }
 }
 
+@media (min-width: 56.4em) {
+  .blog-featured {
+    display: flex;
+  }
+}
+
 @media (min-width: 40em) {
   .grid-container {
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
