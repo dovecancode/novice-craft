@@ -226,3 +226,48 @@ img {
 .logos-svg {
   justify-self: start;
 }
+
+/* ##############
+  *** Company Styles ***
+   ############## 
+*/
+
+.company-header h2,
+.company-info h3 {
+  text-transform: capitalize;
+}
+
+.company-header {
+  margin-bottom: 5rem;
+}
+
+.company-header h2 {
+  color: #000;
+  /* font-size: clamp(1.6em, 1rem + 4vw, 5rem); */
+  font-size: clamp(3rem, 3vw, 5rem);
+}
+
+.company-header h2,
+.company-header p,
+.company-intro .company-header h2,
+.company-info .company-info-text h3,
+.company-info p {
+  margin-bottom: 2rem;
+}
+
+.company-header span {
+  display: block;
+}
+
+.company-info-text .num span {
+  width: 5rem;
+  height: 5rem;
+  background: var(--main-color);
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 10rem;
+}
+
+.company-info-text .text h3 {
+  color: #000;
+}

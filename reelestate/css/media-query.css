@@ -23,6 +23,10 @@
   .logos-svg {
     justify-self: center;
   }
+
+  .company-info .text {
+    width: 56%;
+  }
 }
 
 @media (min-width: 40em) {
