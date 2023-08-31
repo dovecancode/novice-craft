@@ -426,3 +426,48 @@ img {
   box-shadow: 2px 5px 5px 0px rgba(136, 136, 136, 0.43);
   padding: 5% 5%;
 }
+
+/* ##############
+  *** CTA Styles ***
+   ############## 
+*/
+
+.cta,
+.present {
+  background: var(--secondary-color);
+}
+
+.cta .flex-container {
+  flex-direction: column;
+}
+
+.cta-header h4 {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: clamp(1.6em, 1rem + 3vw, 5rem);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.cta-input {
+  width: 65%;
+}
+
+.cta .form-input-group {
+  position: relative;
+}
+
+.cta .form-input-group {
+  padding: 1.6rem;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.form-input-group .btn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 1rem;
+  margin: 1rem;
+  text-transform: capitalize;
+}

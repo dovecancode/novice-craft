@@ -64,3 +64,32 @@
 .pad-tb-2 {
   padding-block: 2%;
 }
+
+input,
+textarea {
+  font-family: var(--body-text-font);
+}
+
+select {
+  color: var(--body-text-color);
+}
+textarea {
+  /* min-height: auto; */
+  max-width: 100%;
+}
+
+input::placeholder {
+  /* font: 1.25rem/3 sans-serif; */
+  font-size: 1.6rem;
+  font-family: var(--body-text-font);
+}
+
+.form-input-group input,
+.form-input-group select,
+.form-input-group textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  background: transparent;
+  position: relative;
+}
