@@ -1,6 +1,6 @@
 # Novice Project
 
-This is the main repository for all my novice projects.
+This is the main repository for all of my novice projects.
 
 |  #  | Project                                                                              | Live Demo                                        |
 | :-: | ------------------------------------------------------------------------------------ | ------------------------------------------------ |
