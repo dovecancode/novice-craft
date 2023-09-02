@@ -473,6 +473,45 @@ img {
 }
 
 /* ##############
+  *** Forsale Page Styles ***
+   ############## 
+*/
+
+/* for sale header section */
+
+.nav .sale.active {
+  color: var(--main-color);
+}
+
+.header-forsale .flex-layout {
+  justify-content: space-between;
+}
+
+.header-forsale .header-title {
+  color: #000;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.header-layout-item ul li {
+  margin-left: 1.6rem;
+}
+
+.header-layout-item ul li i {
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.header-layout-item ul li:hover i {
+  color: #000;
+}
+
+.header-layout-item ul {
+  display: flex;
+}
+
+/* ##############
   *** Footer Styles ***
    ############## 
 */
