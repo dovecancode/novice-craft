@@ -511,6 +511,47 @@ img {
   display: flex;
 }
 
+/* for sale farm section */
+
+.farm .grid-container {
+  row-gap: 3rem;
+}
+
+.farm .farm-description {
+  border-radius: 0rem 0rem 0.9375rem 0.9375rem;
+  border: 1px solid #c9c9c9;
+  background: #fff;
+  padding: 2% 3%;
+}
+
+.farm .farm-description > * {
+  margin-block: 1.6rem;
+}
+
+.farm-description .farm-details,
+.farm-description .farm-details .farm-size .size {
+  display: flex;
+}
+.farm-description h2,
+.farm-size .size > *,
+.farm-size p:last-child {
+  color: #000;
+}
+
+.farm-size .size > * {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.farm-size p:last-child {
+  text-transform: uppercase;
+}
+
+.farm-description .farm-details {
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* ##############
   *** Footer Styles ***
    ############## 
