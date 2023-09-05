@@ -553,6 +553,30 @@ img {
 }
 
 /* ##############
+  *** Contact Page Styles ***
+   ############## 
+*/
+
+.contact .form-input-group input,
+.contact .form-input-group select,
+.contact .form-input-group textarea {
+  border-radius: 0.3125rem;
+  border: 1px solid #9e9e9e;
+  background: var(--white, #fff);
+  padding: 1rem;
+}
+
+.contact .contact-form .form-input-group,
+.contact-img {
+  margin-bottom: 2rem;
+}
+
+.contact .btn {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+
+/* ##############
   *** Footer Styles ***
    ############## 
 */
