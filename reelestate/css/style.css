@@ -576,6 +576,68 @@ img {
   text-transform: capitalize;
 }
 
+.present {
+  color: #fff;
+}
+
+.present .present-farm {
+  margin-bottom: 6rem;
+}
+
+.present .present-farming,
+.present .present-farming .present-farm > * {
+  margin-bottom: 2rem;
+}
+
+.present-farm h3 {
+  font-size: clamp(1rem, 10vh + 1rem, 3rem);
+}
+
+.present-owner > p {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 1.6rem;
+}
+
+.present-profile {
+  display: flex;
+  align-items: center;
+}
+
+.present-profile p {
+  text-transform: capitalize;
+  margin-left: 1.6rem;
+}
+
+.present .present-img,
+.present .img-container {
+  position: relative;
+}
+
+.present-img {
+  display: flex;
+}
+
+.present-img .present-pos-img {
+  position: absolute;
+  width: 80%;
+  border: 0.5rem var(--main-color) solid;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+
+.present-img .present-pos-img:nth-of-type(1) {
+  z-index: 1;
+  /* bottom: 0; */
+  bottom: 9rem;
+}
+
+.present-img .present-pos-img:nth-of-type(2) {
+  right: 0;
+  top: 5rem;
+}
+
 /* ##############
   *** Footer Styles ***
    ############## 
