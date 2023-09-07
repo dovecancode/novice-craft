@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Work+Sans&display=swap');
+
+:root {
+  --primary-color: #756bee;
+  --heading-text: 'Work Sans', sans-serif;
+  --body-text: 'Outfit', sans-serif;
+
+  --cream-scent: #fbf7ec;
+  --purple-scent: #7854f7;
+  --footer-scent: #000;
+}
+
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: inherit;
+  font-family: var(--body-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-text);
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
