@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
