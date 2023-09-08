@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Count Character Set</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background: steelblue;
+        height: 100vh;
+      }
+      #textInput {
+        display: block;
+        margin-bottom: 15px;
+        outline: 0;
+        padding: 10px;
+      }
+      .btn {
+        background: #131313;
+        border: 0;
+        outline: 0;
+        padding: 10px 15px;
+        text-transform: capitalize;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 9px;
+      }
+      .container {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        height: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Max Limit <span id="charCount">0</span>/<span id="limit">150</span></h1>
+      <div class="textarea">
+        <textarea name="" id="textInput" cols="60" rows="10" placeholder="Type here..."></textarea>
+        <button class="btn" id="btn" type="button">submit</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
