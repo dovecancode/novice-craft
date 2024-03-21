@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+.d-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.header .header-logo {
+  width: 250px;
+}
+
+.header .header-logo img {
+  min-width: 300px;
+}
+
+.header .header-nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header .header-nav li {
+  text-transform: capitalize;
+}
+
+/* Utils  --------------------------------------------------- */
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  border: 0;
+}
+
+.btn-yellow {
+  display: inline-block;
+  background: #fbb927;
+  color: #fff;
+  padding: 12px 20px;
+}
+
+.btn-crimson {
+  background: #ec3e37;
+  color: #fff;
+  padding: 12px 30px;
+}
+
+.btn-crimson a {
+  font-size: 18px;
+  color: #fff;
+}
+/* Utils End  --------------------------------------------------- */
+
+/* HERO --------------------------------------------------- */
+.hero {
+  background: url('../img/mainbg.jpg');
+  position: relative;
+}
+
+.hero .hero-content {
+  height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.hero .hero-text {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.hero-text > span {
+  display: block;
+  color: #fbb927;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.hero-text > h1 {
+  color: #fff;
+  font-size: 100px;
+  text-transform: capitalize;
+}
+
+.hero-text > p {
+  color: #fff;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.hero-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}
+
+.hero-box {
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+  width: 300px;
+  margin-bottom: 20px;
+  /* box-shadow: 0px 0px 16px 3px #1a0303; */
+  transition: all 0.6s;
+}
+
+.hero-box .hero-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-info .info i {
+  font-size: 12px;
+}
+
+.hero-box.crimson {
+  background: #ec3e37;
+}
+
+.hero-box.yellow {
+  background: #fbb927;
+}
+
+.hero-box.white {
+  background: #fff;
+  color: #000;
+}
+
+.hero-box.crimson:hover,
+.hero-box.yellow:hover,
+.hero-box.white:hover {
+  box-shadow: 0px 0px 16px 3px #1a0303;
+}
+
+.hero-box .icon img {
+  width: 45px;
+}
+
+.btn-crimson {
+  background: #ec3e37;
+  color: #fff;
+  padding: 12px 30px;
+}
+
+.btn-crimson i {
+  font-size: 12px;
+}
+
+@media (width >= 900px) {
+  .hero .hero-text {
+    text-align: right;
+  }
+}
+
+@media (width <= 900px) {
+  .hero-boxes {
+    justify-content: center;
+  }
+
+  .header .header-navbar {
+    display: none;
+  }
+  .hero .hero-text {
+    margin-top: -204px;
+  }
+
+  .header .header-logo {
+    margin: auto;
+  }
+}
+
+@media (width <= 1536px) {
+  .hero {
+    background-position-x: 27%;
+    background-position-y: -90px;
+  }
+  .hero .hero-text span {
+    font-size: clamp(1.6rem, 1vw, 4rem);
+  }
+  .hero .hero-text h1 {
+    font-size: clamp(5rem, 8vw, 4rem);
+  }
+  .hero-box {
+    padding: 10px;
+  }
+}

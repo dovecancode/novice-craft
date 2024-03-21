@@ -1,0 +1,95 @@
+.container {
+  width: 100%;
+  max-width: 150rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+}
+/* ##############
+  *** Grid Layout ***
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+   ############## 
+*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.flex-layout {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+}
+
+.btn {
+  background: var(--secondary-color);
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+}
+
+.btn-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
+
+.pad-tb-5 {
+  padding-block: 5%;
+}
+
+.pad-tb-3 {
+  padding-block: 3%;
+}
+
+.pad-tb-2 {
+  padding-block: 2%;
+}
+
+input,
+textarea {
+  font-family: var(--body-text-font);
+}
+
+select {
+  color: var(--body-text-color);
+}
+textarea {
+  /* min-height: auto; */
+  max-width: 100%;
+}
+
+input::placeholder {
+  /* font: 1.25rem/3 sans-serif; */
+  font-size: 1.6rem;
+  font-family: var(--body-text-font);
+}
+
+.form-input-group input,
+.form-input-group select,
+.form-input-group textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  background: transparent;
+  position: relative;
+}
